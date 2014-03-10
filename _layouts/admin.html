@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OctoPad Administration</title>
+  
+  <link rel="stylesheet" href="/octopad/css/main.css">
+  <link rel="stylesheet" href="/octopad/css/iconic_stroke.css">
+  <link rel="stylesheet" href="/octopad/css/editor.css">
+  
+  <script type="text/javascript" src="/octopad/js/base64.js"></script>
+  <script type="text/javascript" src="/octopad/js/underscore.min.js"></script>
+  <script type="text/javascript" src="/octopad/js/github.js"></script>
+  <script type="text/javascript" src="/octopad/js/lz-string.min.js"></script>
+  <script type="text/javascript" src="/octopad/js/marked.js"></script>
+  <script type="text/javascript" src="/octopad/js/markpad.js"></script>
+  <script type="text/javascript" src="/octopad/js/octopad.js"></script>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function(){
+      OctoPad.init({
+        ghUser: "{{ site.github_user }}",
+        ghRepo: "{{ site.github_repo }}",
+        ghBranch: "{{ site.github_branch }}",
+        ghPath: "{{ site.github_path }}"
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="login">
+    <div class="no-js">OctoPad failed to load</div>
+  </div>
+</body>
+</html>

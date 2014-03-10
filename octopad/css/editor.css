@@ -1,0 +1,72 @@
+#editor{
+  margin:auto;
+  margin-top:200px;
+  width:800px;
+  height:300px;
+  background-color:#fff;
+  box-sizing:border-box;
+}
+
+#markpad-ui-toolbar{
+  background-color:#444;
+  height:30px;
+  box-sizing: border-box;
+  padding:5px;
+  position:relative;
+  width:100%;
+  z-index:1000;
+}
+
+#markpad-ui-toolbar .brand{
+  color:rgb(255,255,255);
+}
+
+#markpad-ui-toolbar-buttons{
+  float:right;
+}
+
+#markpad-ui-editor{
+  background-color:#fff;
+  box-sizing:border-box;
+  width:50%;
+  height:100%;
+  float:left;
+  padding:15px;
+  padding-top:45px;
+  overflow-y:scroll;
+  transition:width 1s;
+  position:relative;
+  z-index:990;
+  margin-top:-30px;
+}
+
+#markpad-ui-preview{
+  background-color:#ddd;
+  box-sizing:border-box;
+  width:50%;
+  height:100%;
+  float:left;
+  padding:15px;
+  padding-top:45px;
+  overflow-y:scroll;
+  transition:width 1s;
+  position:relative;
+  z-index:990;
+  margin-top:-30px;
+}
+
+#markpad-ui-preview h1:first-of-type{
+  margin-top:0px;
+}
+
+#markpad-ui-box{
+  width:0%;
+  transition:width 1s;
+  height:100%;
+  box-sizing:border-box;
+  float:left;
+  background-color:#bbb;
+  position:relative;
+  z-index:990;
+  margin-top:-30px;
+}

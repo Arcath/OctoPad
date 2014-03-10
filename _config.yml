@@ -1,0 +1,11 @@
+name: Your New Jekyll Site
+markdown: redcarpet
+pygments: true
+permalink: ":year/:month/:day/:title.html"
+
+# Octopad Config
+
+github_user: arcath
+github_repo: octopad
+github_branch: master
+github_path: _posts/

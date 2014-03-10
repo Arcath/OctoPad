@@ -7,4 +7,4 @@ OctoPad uses [Jekyll] and a Javascript implementation of the [GitHub API] to cre
 This application is stil under heavy development and this repo only exists so that I have a repo to test against. (Has to be a GH Repo not just a git repo)
 
 [Jekyll]: http://jekyllrb.com
-[GitHubAPI]: https://github.com/michael/github
+[GitHub API]: https://github.com/michael/github

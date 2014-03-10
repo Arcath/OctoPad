@@ -1,0 +1,54 @@
+body{
+  background-color:#fff;
+  color:#444;
+  margin:0px;
+  padding:0px;
+  height:100%;
+}
+
+/* Login Styles */
+.login{
+  margin:auto;
+  width:400px;
+  margin-top:15%;
+}
+
+.login .no-js{
+  background-color:#f2dede;
+  color:#a94442;
+  border:#ebccd1 1px solid;
+  border-radius:7px;
+  padding:7px;
+  text-align:center;
+}
+
+.login img{
+  margin-left:140px;
+}
+
+.login input{
+  width:350px;
+  box-sizing:border-box;
+  margin-left:25px;
+  margin-top:10px;
+  font-size:25px;
+  padding:10px;
+}
+
+/* UI */
+#menu{
+  height:100%;
+  width:200px;
+  background-color:#444;
+  position:fixed;
+  top:0px;
+  left:0px;
+  color:#fff;
+  text-align:center;
+}
+
+#main{
+  margin:0px;
+  margin-left:200px;
+  height:100%;
+}
